@@ -23,12 +23,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/arrio"
-	"github.com/apache/arrow/go/arrow/internal/arrdata"
-	"github.com/apache/arrow/go/arrow/ipc"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow/arrio"
+	"github.com/DataDog/arrow/go/arrow/internal/arrdata"
+	"github.com/DataDog/arrow/go/arrow/ipc"
+	"github.com/DataDog/arrow/go/arrow/memory"
 )
 
 type copyKind int

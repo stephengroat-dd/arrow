@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/array"
 )
 
 // Writer wraps encoding/csv.Writer and writes array.Record based on a schema.

@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package decimal128 // import "github.com/apache/arrow/go/arrow/decimal128"
+package decimal128 // import "github.com/DataDog/arrow/go/arrow/decimal128"
 
 var (
 	MaxDecimal128 = New(542101086242752217, 687399551400673280-1)

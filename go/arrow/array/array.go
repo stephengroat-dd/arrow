@@ -14,14 +14,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package array // import "github.com/apache/arrow/go/arrow/array"
+package array // import "github.com/DataDog/arrow/go/arrow/array"
 
 import (
 	"sync/atomic"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/bitutil"
-	"github.com/apache/arrow/go/arrow/internal/debug"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/bitutil"
+	"github.com/DataDog/arrow/go/arrow/internal/debug"
 )
 
 // A type which satisfies array.Interface represents an immutable sequence of values.

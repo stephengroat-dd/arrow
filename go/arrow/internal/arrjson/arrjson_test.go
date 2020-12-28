@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package arrjson // import "github.com/apache/arrow/go/arrow/internal/arrjson"
+package arrjson // import "github.com/DataDog/arrow/go/arrow/internal/arrjson"
 
 import (
 	"io"
@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/internal/arrdata"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow/internal/arrdata"
+	"github.com/DataDog/arrow/go/arrow/memory"
 )
 
 func TestReadWrite(t *testing.T) {

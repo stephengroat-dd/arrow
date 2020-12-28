@@ -19,10 +19,10 @@ package array
 import (
 	"sync/atomic"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/bitutil"
-	"github.com/apache/arrow/go/arrow/internal/debug"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/bitutil"
+	"github.com/DataDog/arrow/go/arrow/internal/debug"
+	"github.com/DataDog/arrow/go/arrow/memory"
 )
 
 type BooleanBuilder struct {

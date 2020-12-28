@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main // import "github.com/apache/arrow/go/arrow/ipc/cmd/arrow-file-to-stream"
+package main // import "github.com/DataDog/arrow/go/arrow/ipc/cmd/arrow-file-to-stream"
 
 import (
 	"flag"
@@ -22,9 +22,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/apache/arrow/go/arrow/arrio"
-	"github.com/apache/arrow/go/arrow/ipc"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow/arrio"
+	"github.com/DataDog/arrow/go/arrow/ipc"
+	"github.com/DataDog/arrow/go/arrow/memory"
 	"golang.org/x/xerrors"
 )
 
