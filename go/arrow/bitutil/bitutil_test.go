@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow/bitutil"
-	"github.com/apache/arrow/go/arrow/internal/testing/tools"
+	"github.com/DataDog/arrow/go/arrow/bitutil"
+	"github.com/DataDog/arrow/go/arrow/internal/testing/tools"
 	"github.com/stretchr/testify/assert"
 )
 

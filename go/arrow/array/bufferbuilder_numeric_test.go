@@ -20,7 +20,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow/memory"
 	"github.com/stretchr/testify/assert"
 )
 

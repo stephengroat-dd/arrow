@@ -21,9 +21,9 @@ package array_test
 import (
 	"testing"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow/memory"
 	"github.com/stretchr/testify/assert"
 )
 

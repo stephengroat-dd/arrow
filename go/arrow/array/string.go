@@ -22,8 +22,8 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/memory"
 )
 
 const (

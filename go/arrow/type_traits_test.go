@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/decimal128"
-	"github.com/apache/arrow/go/arrow/float16"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/decimal128"
+	"github.com/DataDog/arrow/go/arrow/float16"
 )
 
 func TestBooleanTraits(t *testing.T) {

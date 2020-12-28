@@ -14,18 +14,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package ipc // import "github.com/apache/arrow/go/arrow/ipc"
+package ipc // import "github.com/DataDog/arrow/go/arrow/ipc"
 
 import (
 	"bytes"
 	"io"
 	"sync/atomic"
 
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/internal/debug"
-	"github.com/apache/arrow/go/arrow/internal/flatbuf"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow/internal/debug"
+	"github.com/DataDog/arrow/go/arrow/internal/flatbuf"
+	"github.com/DataDog/arrow/go/arrow/memory"
 	"golang.org/x/xerrors"
 )
 

@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/arrow/go/arrow/internal/arrdata"
-	"github.com/apache/arrow/go/arrow/memory"
+	"github.com/DataDog/arrow/go/arrow/internal/arrdata"
+	"github.com/DataDog/arrow/go/arrow/memory"
 )
 
 func TestFile(t *testing.T) {

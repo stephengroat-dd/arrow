@@ -19,8 +19,8 @@
 package tensor
 
 import (
-	"github.com/apache/arrow/go/arrow"
-	"github.com/apache/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow/array"
 )
 
 // Int8 is an n-dim array of int8s.

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/apache/arrow/go/arrow/float16"
+	"github.com/DataDog/arrow/go/arrow/float16"
 )
 
 // Float16 traits

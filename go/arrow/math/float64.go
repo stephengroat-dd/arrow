@@ -19,7 +19,7 @@
 package math
 
 import (
-	"github.com/apache/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow/array"
 )
 
 type Float64Funcs struct {

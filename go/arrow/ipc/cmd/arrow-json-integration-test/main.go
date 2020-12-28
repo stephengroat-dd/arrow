@@ -14,17 +14,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package main // import "github.com/apache/arrow/go/arrow/ipc/cmd/arrow-json-integration-test"
+package main // import "github.com/DataDog/arrow/go/arrow/ipc/cmd/arrow-json-integration-test"
 
 import (
 	"flag"
 	"log"
 	"os"
 
-	"github.com/apache/arrow/go/arrow/array"
-	"github.com/apache/arrow/go/arrow/arrio"
-	"github.com/apache/arrow/go/arrow/internal/arrjson"
-	"github.com/apache/arrow/go/arrow/ipc"
+	"github.com/DataDog/arrow/go/arrow/array"
+	"github.com/DataDog/arrow/go/arrow/arrio"
+	"github.com/DataDog/arrow/go/arrow/internal/arrjson"
+	"github.com/DataDog/arrow/go/arrow/ipc"
 	"golang.org/x/xerrors"
 )
 

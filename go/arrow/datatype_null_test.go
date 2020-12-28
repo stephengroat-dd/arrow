@@ -19,7 +19,7 @@ package arrow_test
 import (
 	"testing"
 
-	"github.com/apache/arrow/go/arrow"
+	"github.com/DataDog/arrow/go/arrow"
 )
 
 func TestNullType(t *testing.T) {
